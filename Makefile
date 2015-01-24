@@ -7,7 +7,7 @@ makebin:
 	mkdir bin
 
 rshell:
-	$(G) $(FLAGS) src/rshell.cpp -o ./bin/rshell
+	$(G) $(FLAGS) src/rshell.cpp -o bin/rshell
 
 clean:
 	rm -rf bin
