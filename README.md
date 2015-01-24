@@ -11,10 +11,9 @@ Open a terminal and type:
 * `bin/rshell`
 
 ###Known Bugs:
-1. Cannot handle tabs.
-2. Cannot handle comments.
-3. Cannot handle ';'.
+1. Cannot handle whitespace-only input.
+2. Comments and flags work only if the other is never inputted during that program run.
+3. Cannot handle `;`.
 4. Cannot handle connectors.
-5. Does not exit on 'exit' input.
- 
 6. Cannot handle symbols.
+7. Segmentation fault on ENTER and if `#` is the first non-whitespace input.

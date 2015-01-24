@@ -1,4 +1,4 @@
-Script started on Fri 23 Jan 2015 05:44:17 PM PST
+Script started on Fri 23 Jan 2015 11:33:09 PM PST
 ~
 cyang032@hammer $ ls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
@@ -19,12 +19,12 @@ drwx------ 8 cyang032 csmajs 4096 Jan 13 21:24 [01;34mucr-cs100[0m/
 drwx------ 2 cyang032 csmajs 4096 Oct  1  2013 [01;34mVideos[0m/
 drwx------ 3 cyang032 csmajs 4096 Sep 24  2013 [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ ls -a[Kl -a -r
-total 1532
+cyang032@hammer $ ls -l a-[K[K-a -r
+total 1536
 -rwx------    1 cyang032 csmajs 913883 Nov 26  2013 [0m[01;32m.xsession-errors.old[0m*
--rw-------    1 cyang032 csmajs   4194 Jan 23 17:17 .Xauthority
+-rw-------    1 cyang032 csmajs   4194 Jan 23 21:32 .Xauthority
 drwx------    3 cyang032 csmajs   4096 Sep 24  2013 [01;34mWINDOWS[0m/
--rwx------    1 cyang032 csmajs   7790 Jan 23 17:32 [01;32m.viminfo[0m*
+-rwx------    1 cyang032 csmajs   9590 Jan 23 23:29 [01;32m.viminfo[0m*
 drwx------    2 cyang032 csmajs   4096 Oct  1  2013 [01;34mVideos[0m/
 drwx------    8 cyang032 csmajs   4096 Jan 13 21:24 [01;34mucr-cs100[0m/
 drwx------   15 cyang032 csmajs   4096 Nov 29 14:09 [01;34m.Trash[0m/
@@ -64,7 +64,7 @@ drwx------    2 cyang032 csmajs   4096 Oct  1  2013 [01;34m.gnome2_private[0m/
 drwx------    9 cyang032 csmajs  20480 Jan 23 11:11 [01;34m.gnome2[0m/
 drwx------    3 cyang032 csmajs   4096 Oct  4  2013 [01;34m.gnome[0m/
 drwx------    3 cyang032 csmajs   4096 Jan 23 17:17 [01;34m.gitlearn[0m/
-drwx------    2 cyang032 csmajs   4096 Jan 23 17:05 [01;34m.gconfd[0m/
+drwx------    2 cyang032 csmajs   4096 Jan 23 22:35 [01;34m.gconfd[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 23 15:50 [01;34m.gconf[0m/
 drwx------    2 cyang032 csmajs   8192 Jan 23 16:52 [01;34m.fontconfig[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 13 21:26 [01;34mfirstrepo[0m/
@@ -136,12 +136,12 @@ drwx------    7 cyang032 csmajs   4096 Oct 11  2013 [01;34m.config[0m/
 drwx------    4 cyang032 csmajs   4096 May 14  2014 [01;34m.cache[0m/
 -rw-------    1 cyang032 csmajs   1270 Sep 19  2008 .bashrc
 -rw-------    1 cyang032 csmajs     24 Sep 19  2008 .bash_logout
--rwx------    1 cyang032 csmajs   1279 Jan 23 11:11 [01;32m.bash_history[0m*
+-rwx------    1 cyang032 csmajs   1202 Jan 23 23:29 [01;32m.bash_history[0m*
 drwx------    4 cyang032 csmajs   4096 Oct 15  2013 [01;34m.adobe[0m/
 drwx--x--x 1267 root     root   200704 Jan 15 09:24 [01;34m..[0m/
-drwx------   48 cyang032 csmajs  12288 Jan 23 17:32 [01;34m.[0m/
+drwx------   48 cyang032 csmajs  12288 Jan 23 23:29 [01;34m.[0m/
 [m~
-cyang032@hammer $ ls -l -l -l -l -l -l -l -l -l -l 
+cyang032@hammer $ ls -l -l -l -l -l -l -l
 total 56
 drwx------ 5 cyang032 csmajs 8192 Jan 13 21:18 [0m[01;34mDesktop[0m/
 drwx------ 2 cyang032 csmajs 4096 Oct  1  2013 [01;34mDocuments[0m/
@@ -156,37 +156,37 @@ drwx------ 8 cyang032 csmajs 4096 Jan 13 21:24 [01;34mucr-cs100[0m/
 drwx------ 2 cyang032 csmajs 4096 Oct  1  2013 [01;34mVideos[0m/
 drwx------ 3 cyang032 csmajs 4096 Sep 24  2013 [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ ls -mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-[0m[01;34mDesktop[0m/, [01;34mDocuments[0m/, [01;34mDownloads[0m/, [01;34mfirstrepo[0m/, [01;34mMusic[0m/, [01;34mPictures[0m/, [01;34mPublic[0m/, [01;34mTemplates[0m/, [01;34mTestDir[0m/, [01;34mucr-cs100[0m/,
-[01;34mVideos[0m/, [01;34mWINDOWS[0m/
+cyang032@hammer $ ls -mmmmmmmmmmmmmmmmmmmmmmmmm
+[0m[01;34mDesktop[0m/, [01;34mDocuments[0m/, [01;34mDownloads[0m/, [01;34mfirstrepo[0m/, [01;34mMusic[0m/, [01;34mPictures[0m/, [01;34mPublic[0m/,
+[01;34mTemplates[0m/, [01;34mTestDir[0m/, [01;34mucr-cs100[0m/, [01;34mVideos[0m/, [01;34mWINDOWS[0m/
 [m~
 cyang032@hammer $ ls ls ls ls
 ls: cannot access ls: No such file or directory
 ls: cannot access ls: No such file or directory
 ls: cannot access ls: No such file or directory
 ~
-cyang032@hammer $ asdfjkl
-bash: asdfjkl: command not found
+cyang032@hammer $ asdfghjkl
+bash: asdfghjkl: command not found
 ~
-cyang032@hammer $ asdfjkl ls
-bash: asdfjkl: command not found
+cyang032@hammer $ asdfghjkl ls
+bash: asdfghjkl: command not found
 ~
 cyang032@hammer $ 
 ~
-cyang032@hammer $                          ls
+cyang032@hammer $              ls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ ls                           
+cyang032@hammer $ ls               
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ ls         -a          [K[K[K[K[K[K[K[K[K[K[Kl          -a
-total 1532
-drwx------   48 cyang032 csmajs  12288 Jan 23 17:32 [0m[01;34m.[0m/
+cyang032@hammer $ ls       -l       -a
+total 1536
+drwx------   48 cyang032 csmajs  12288 Jan 23 23:29 [0m[01;34m.[0m/
 drwx--x--x 1267 root     root   200704 Jan 15 09:24 [01;34m..[0m/
 drwx------    4 cyang032 csmajs   4096 Oct 15  2013 [01;34m.adobe[0m/
--rwx------    1 cyang032 csmajs   1279 Jan 23 11:11 [01;32m.bash_history[0m*
+-rwx------    1 cyang032 csmajs   1202 Jan 23 23:29 [01;32m.bash_history[0m*
 -rw-------    1 cyang032 csmajs     24 Sep 19  2008 .bash_logout
 -rw-------    1 cyang032 csmajs   1270 Sep 19  2008 .bashrc
 drwx------    4 cyang032 csmajs   4096 May 14  2014 [01;34m.cache[0m/
@@ -258,7 +258,7 @@ drwxr-xr-x    7 cyang032 csmajs   4096 Nov 19 20:44 [01;34m.evolution[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 13 21:26 [01;34mfirstrepo[0m/
 drwx------    2 cyang032 csmajs   8192 Jan 23 16:52 [01;34m.fontconfig[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 23 15:50 [01;34m.gconf[0m/
-drwx------    2 cyang032 csmajs   4096 Jan 23 17:05 [01;34m.gconfd[0m/
+drwx------    2 cyang032 csmajs   4096 Jan 23 22:35 [01;34m.gconfd[0m/
 drwx------    3 cyang032 csmajs   4096 Jan 23 17:17 [01;34m.gitlearn[0m/
 drwx------    3 cyang032 csmajs   4096 Oct  4  2013 [01;34m.gnome[0m/
 drwx------    9 cyang032 csmajs  20480 Jan 23 11:11 [01;34m.gnome2[0m/
@@ -298,17 +298,17 @@ drwx------    3 cyang032 csmajs   4096 Oct 16  2013 [01;34m.thumbnails[0m/
 drwx------   15 cyang032 csmajs   4096 Nov 29 14:09 [01;34m.Trash[0m/
 drwx------    8 cyang032 csmajs   4096 Jan 13 21:24 [01;34mucr-cs100[0m/
 drwx------    2 cyang032 csmajs   4096 Oct  1  2013 [01;34mVideos[0m/
--rwx------    1 cyang032 csmajs   7790 Jan 23 17:32 [01;32m.viminfo[0m*
+-rwx------    1 cyang032 csmajs   9590 Jan 23 23:29 [01;32m.viminfo[0m*
 drwx------    3 cyang032 csmajs   4096 Sep 24  2013 [01;34mWINDOWS[0m/
--rw-------    1 cyang032 csmajs   4194 Jan 23 17:17 .Xauthority
+-rw-------    1 cyang032 csmajs   4194 Jan 23 21:32 .Xauthority
 -rwx------    1 cyang032 csmajs 913883 Nov 26  2013 [01;32m.xsession-errors.old[0m*
 [m~
-cyang032@hammer $            ls           ls[K[K-l              -a
-total 1532
-drwx------   48 cyang032 csmajs  12288 Jan 23 17:32 [0m[01;34m.[0m/
+cyang032@hammer $      ls    -l    -a
+total 1536
+drwx------   48 cyang032 csmajs  12288 Jan 23 23:29 [0m[01;34m.[0m/
 drwx--x--x 1267 root     root   200704 Jan 15 09:24 [01;34m..[0m/
 drwx------    4 cyang032 csmajs   4096 Oct 15  2013 [01;34m.adobe[0m/
--rwx------    1 cyang032 csmajs   1279 Jan 23 11:11 [01;32m.bash_history[0m*
+-rwx------    1 cyang032 csmajs   1202 Jan 23 23:29 [01;32m.bash_history[0m*
 -rw-------    1 cyang032 csmajs     24 Sep 19  2008 .bash_logout
 -rw-------    1 cyang032 csmajs   1270 Sep 19  2008 .bashrc
 drwx------    4 cyang032 csmajs   4096 May 14  2014 [01;34m.cache[0m/
@@ -380,7 +380,7 @@ drwxr-xr-x    7 cyang032 csmajs   4096 Nov 19 20:44 [01;34m.evolution[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 13 21:26 [01;34mfirstrepo[0m/
 drwx------    2 cyang032 csmajs   8192 Jan 23 16:52 [01;34m.fontconfig[0m/
 drwx------    4 cyang032 csmajs   4096 Jan 23 15:50 [01;34m.gconf[0m/
-drwx------    2 cyang032 csmajs   4096 Jan 23 17:05 [01;34m.gconfd[0m/
+drwx------    2 cyang032 csmajs   4096 Jan 23 22:35 [01;34m.gconfd[0m/
 drwx------    3 cyang032 csmajs   4096 Jan 23 17:17 [01;34m.gitlearn[0m/
 drwx------    3 cyang032 csmajs   4096 Oct  4  2013 [01;34m.gnome[0m/
 drwx------    9 cyang032 csmajs  20480 Jan 23 11:11 [01;34m.gnome2[0m/
@@ -420,31 +420,31 @@ drwx------    3 cyang032 csmajs   4096 Oct 16  2013 [01;34m.thumbnails[0m/
 drwx------   15 cyang032 csmajs   4096 Nov 29 14:09 [01;34m.Trash[0m/
 drwx------    8 cyang032 csmajs   4096 Jan 13 21:24 [01;34mucr-cs100[0m/
 drwx------    2 cyang032 csmajs   4096 Oct  1  2013 [01;34mVideos[0m/
--rwx------    1 cyang032 csmajs   7790 Jan 23 17:32 [01;32m.viminfo[0m*
+-rwx------    1 cyang032 csmajs   9590 Jan 23 23:29 [01;32m.viminfo[0m*
 drwx------    3 cyang032 csmajs   4096 Sep 24  2013 [01;34mWINDOWS[0m/
--rw-------    1 cyang032 csmajs   4194 Jan 23 17:17 .Xauthority
+-rw-------    1 cyang032 csmajs   4194 Jan 23 21:32 .Xauthority
 -rwx------    1 cyang032 csmajs 913883 Nov 26  2013 [01;32m.xsession-errors.old[0m*
 [m~
 cyang032@hammer $ ./a.out
 bash: ./a.out: No such file or directory
 ~
-cyang032@hammer $ vin/r[K[K[K[K[Kbin/rshell
+cyang032@hammer $ bin/shel[K[K[K[Krshell
 bash: bin/rshell: No such file or directory
 ~
 cyang032@hammer $ ;
 bash: syntax error near unexpected token `;'
 ~
-cyang032@hammer $ ;;;;;;;
+cyang032@hammer $ ;;;;;
 bash: syntax error near unexpected token `;;'
 ~
-cyang032@hammer $ ;;;&&;;;;|||[K
-bash: syntax error near unexpected token `;;'
+cyang032@hammer $ ;;&&l[K;;;||
+bash: syntax error near unexpected token `;;&'
 ~
 cyang032@hammer $ &
 bash: syntax error near unexpected token `&'
 ~
-cyang032@hammer $ l s[K[Ks & ls
-[1] 39884
+cyang032@hammer $ ls & ls
+[1] 27585
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m[0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
@@ -461,13 +461,13 @@ cyang032@hammer $ ls || ls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ true && ls
+cyang032@hammer $ true && ;s[K[Kls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m~
-cyang032@hammer $ false ^&&[K[K[K&& ls
+cyang032@hammer $ false && ls
 ~
-cyang032@hammer $ true || ls
+cyang032@hammer $ ture[K[K[K[Kru[K[Ktrue || ls
 ~
 cyang032@hammer $ false || ls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
@@ -475,19 +475,22 @@ cyang032@hammer $ false || ls
 [m~
 cyang032@hammer $ true
 ~
-cyang032@hammer $ true &&
-loop $ && true
+cyang032@hammer $ tu[Krue &&
+loop $ 
+loop $ true
+~
+cyang032@hammer $ && true
 bash: syntax error near unexpected token `&&'
 ~
 cyang032@hammer $ # test
 ~
-cyang032@hammer $ #     reallly[K[Ky     long       test
+cyang032@hammer $ #     reallly  [K[K[K[Kyu[K      long     test
 ~
-cyang032@hammer $ ls #asdfjkl      ;     ls
+cyang032@hammer $ ls #asfdghjkl    ;     ls
 [0m[01;34mDesktop[0m/    [01;34mDownloads[0m/  [01;34mMusic[0m/     [01;34mPublic[0m/     [01;34mTestDir[0m/    [01;34mVideos[0m/
 [01;34mDocuments[0m/  [01;34mfirstrepo[0m/  [01;34mPictures[0m/  [01;34mTemplates[0m/  [01;34mucr-cs100[0m/  [01;34mWINDOWS[0m/
 [m~
 cyang032@hammer $ exit
 exit
 
-Script done on Fri 23 Jan 2015 05:49:22 PM PST
+Script done on Fri 23 Jan 2015 11:36:37 PM PST
