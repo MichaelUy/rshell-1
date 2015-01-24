@@ -5,6 +5,10 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <vector>
+#include <string.h>
+#include <stdio.h>
+#include <errno.h>
+#include <cstdlib>
 
 using namespace std;
 using namespace boost;
@@ -30,11 +34,12 @@ int main()
 
 	while(1)
 	{
-		cout << '$';
+		cout << "$ ";
 		counter = 0;
 		cin.getline(fullinput, 3333);
-		if(fullinput == "exit") { break; }
 		curr = strtok(fullinput, " ");
+//		if(curr == "exit") { exit(1); }
+
 		while(curr != NULL)
 		{
 			cout << "Token: " << curr << endl;
@@ -87,7 +92,7 @@ int runcmd(char** argv)
 	//	char* testex[] = {'e', 'x', 'i', 't'};
 	
 
-		if(strcmp(argv[0], "exit") == 0) { exit(1); }
+//		if(argv[0] != NULL && strcmp(argv[0], "exit") == 0) { exit(1); }
 
 		if(-1 == execvp(argv[0], argv))
 			perror("There was an error in execvp. ");
@@ -104,6 +109,7 @@ int runcmd(char** argv)
 		}
 	}
 	//you can do whatever the parent function needs to do here
+	return 0;
 }
 
 /*
