@@ -5,10 +5,10 @@ A program that can implement basic features of the command shell.
 
 ###How to install and run the program:
 Open a terminal and type:
-*'git clone https://github.com/cyang032/rshell.git'
-*'cd rshell'
-*'make'
-*'bin/rshell'
+* `git clone https://github.com/cyang032/rshell.git`
+* `cd rshell`
+* `make`
+* `bin/rshell`
 
 ###Known Bugs:
 1. Cannot handle tabs.
