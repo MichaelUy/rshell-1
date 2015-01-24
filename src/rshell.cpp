@@ -116,18 +116,6 @@ int runcmd(char** argv)
 
 only character arrays/pointers/etc. for exec function
 
-okay i first broke the input into vectors
-by seperating the ;
-
-what if there are none?
-
-i have a bool that raise if it's NULL
-and then i'll check for other ones and seperate them too
-and raise the respecting boolean flags
-and after separating them all i run a logic test that check for if there are && and || stuff like that
-and if everything is good i'll erase the space and then have a while loop that fork it and execvp it
-
-you just need to create a child everytime you need to call execvp
 */
 
 
