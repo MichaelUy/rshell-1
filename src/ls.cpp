@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include <stdlib.h>
 #include <iostream>
 
 using namespace std;
@@ -15,7 +16,7 @@ using namespace std;
 */
 
 int main() {
-	char* dirName = ".";
+	char dirName[] = ".";
 	DIR* dirp = opendir(dirName);
 	if(dirp == NULL) {
 		perror("opendir");
@@ -27,7 +28,14 @@ int main() {
 			perror("readdir");
 			exit(1);
 		}
-		cout << direntp->d_name << endl; // use stat here to find attributes of file
+
+		struct stat status;
+		if(stat(direntp->d_name, &status) == -1) {
+			perror("stat");
+			exit(1);
+		}
+		// use stat here to find attributes of file
+		cout << direntp->d_name << endl;
 	}
 
 	if(closedir(dirp) == -1) {
